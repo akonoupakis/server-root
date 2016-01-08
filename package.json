@@ -20,5 +20,10 @@
       "type": "MIT"
     }
   ],
-  "main": "index"
+  "main": "index",
+  "devDependencies": {
+    "commander": "^2.9.0",
+    "gitflow-publisher": "^1.0.1",
+    "gitflow-publisher-npm": "^1.0.1"
+  }
 }
