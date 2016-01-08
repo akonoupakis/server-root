@@ -1,29 +1,29 @@
 {
-	"name": "server-root",
-	"version": "0.0.10-pre1",
-	"description": "A simple module that will return a relative path compared to the application root",
-	"keywords": [
-		"map path",
-		"server path"
-	],
-	"author": {
-		"name": "Apostolis Konoupakis",
-		"email": "konoupakis@gmail.com",
-		"url": ""
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://bitbucket.org/akonoupakis/server-root.git"
-	},
-	"licenses": [
-		{
-			"type": "MIT"
-		}
-	],
-	"main": "index",
-	"devDependencies": {
-		"commander": "^2.9.0",
-		"gitflow-publisher": "^1.0.1",
-		"gitflow-publisher-npm": "^1.0.1"
-	}
+  "name": "server-root",
+  "version": "0.0.10-pre1",
+  "description": "A simple module that will return a relative path compared to the application root",
+  "keywords": [
+    "map path",
+    "server path"
+  ],
+  "author": {
+    "name": "Apostolis Konoupakis",
+    "email": "konoupakis@gmail.com",
+    "url": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/akonoupakis/server-root.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "main": "index",
+  "devDependencies": {
+    "commander": "^2.9.0",
+    "gitflow-publisher": "^1.0.2",
+    "gitflow-publisher-npm": "^1.0.1"
+  }
 }
