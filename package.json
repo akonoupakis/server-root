@@ -1,6 +1,6 @@
 {
 	"name": "server-root",
-	"version": "0.0.10-pre2",
+	"version": "0.0.10-pre3",
 	"description": "A simple module that will return a relative path compared to the application root",
 	"keywords": [
 		"map path",
