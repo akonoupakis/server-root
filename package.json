@@ -1,6 +1,6 @@
 {
 	"name": "server-root",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"description": "maps a relative path to its server full path location",
 	"keywords": [
 		"map path",
@@ -15,10 +15,6 @@
 		"type": "git",
 		"url": "https://bitbucket.org/akonoupakis/server-root.git"
 	},
-	"licenses": [
-		{
-			"type": "MIT"
-		}
-	],
+	"license": "MIT",
 	"main": "index"
 }
