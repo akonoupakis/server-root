@@ -18,7 +18,6 @@
 var server = require('server-root');
 
 var path = server.mapPath('folder/file.txt');
-
 ```
 
 ## license
