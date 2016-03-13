@@ -15,10 +15,6 @@
 		"type": "git",
 		"url": "https://bitbucket.org/akonoupakis/server-root.git"
 	},
-	"licenses": [
-		{
-			"type": "MIT"
-		}
-	],
+	"license": "MIT",
 	"main": "index"
 }
