@@ -1,7 +1,7 @@
 var path = require('path');
 
 module.exports = {
-    getPath: function (paths) {
+    mapPath: function (paths) {
 
         var dir = __dirname;
         if (dir.indexOf('node_modules') !== -1)
