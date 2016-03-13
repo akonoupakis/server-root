@@ -8,7 +8,7 @@
 
 [![NPM](https://nodei.co/npm/server-root.png?downloads=true)](https://nodei.co/npm/server-root/)
 
-## overview
+## Overview
 
 	A module that maps a relative path to its server full path location.
 
@@ -20,7 +20,7 @@ var server = require('server-root');
 var path = server.mapPath('folder/file.txt');
 ```
 
-## license
+## License
 
 	The MIT License (MIT)
 
