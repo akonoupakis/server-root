@@ -4,7 +4,7 @@ var currentPath = null;
 module.exports = {
     mapPath: function (paths) {
         if(currentPath !== null)
-        return path.join(currentPath, paths);
+            return path.join(currentPath, paths);
 
         var dir = __dirname;
         if (dir.indexOf('node_modules') !== -1)
