@@ -1,8 +1,26 @@
 # server-root
+> gets a full path relative to the application root
+
+![VERSION](https://img.shields.io/npm/v/server-root.svg)
+![DOWNLOADS](https://img.shields.io/npm/dt/server-root.svg)
+[![ISSUES](https://img.shields.io/github/issues-raw/akonoupakis/server-root.svg)](https://github.com/akonoupakis/server-root/issues)
+![LICENCE](https://img.shields.io/npm/l/server-root.svg)
+
+[![NPM](https://nodei.co/npm/server-root.png?downloads=true)](https://nodei.co/npm/server-root/)
 
 ## overview
 
 	A installed module that will return a relative path compared to the application root.
+
+## Usage
+
+```js
+var root = require('server-root');
+
+// returns the full path of the given relative path
+root.getPath('folder/file.txt');
+
+```
 
 ## license
 
