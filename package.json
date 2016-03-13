@@ -1,7 +1,7 @@
 {
 	"name": "server-root",
 	"version": "1.0.1",
-	"description": "gets a full path relative to the application root",
+	"description": "maps a relative path to its server full path location",
 	"keywords": [
 		"map path",
 		"server path"

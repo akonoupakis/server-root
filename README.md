@@ -1,5 +1,5 @@
 # server-root
-> gets a full path relative to the application root
+> maps a relative path to its server full path location
 
 ![VERSION](https://img.shields.io/npm/v/server-root.svg)
 ![DOWNLOADS](https://img.shields.io/npm/dt/server-root.svg)
@@ -10,15 +10,14 @@
 
 ## overview
 
-	A installed module that will return a relative path compared to the application root.
+	A module that maps a relative path to its server full path location.
 
 ## Usage
 
 ```js
-var root = require('server-root');
+var server = require('server-root');
 
-// returns the full path of the given relative path
-root.getPath('folder/file.txt');
+var path = server.mapPath('folder/file.txt');
 
 ```
 
