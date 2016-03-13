@@ -1,6 +1,6 @@
 {
 	"name": "server-root",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "maps a relative path to its server full path location",
 	"keywords": [
 		"map path",
