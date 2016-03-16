@@ -1,26 +1,26 @@
 {
-  "name": "server-root",
-  "version": "1.0.8",
-  "description": "maps a relative path to its server full path location",
-  "keywords": [
-    "map path",
-    "server path"
-  ],
-  "author": {
-    "name": "Apostolis Konoupakis",
-    "email": "konoupakis@gmail.com",
-    "url": ""
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://bitbucket.org/akonoupakis/server-root.git"
-  },
-  "license": "MIT",
-  "main": "index",
-  "scripts": {
-	"test": "mocha"
-  },
-  "devDependencies": {
-    "mocha": "^2.4.5"
-  }
+	"name": "server-root",
+	"version": "1.0.9",
+	"description": "maps a relative path to its server full path location",
+	"keywords": [
+		"map path",
+		"server path"
+	],
+	"author": {
+		"name": "Apostolis Konoupakis",
+		"email": "konoupakis@gmail.com",
+		"url": ""
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://bitbucket.org/akonoupakis/server-root.git"
+	},
+	"license": "MIT",
+	"main": "index",
+	"scripts": {
+		"test": "mocha"
+	},
+	"devDependencies": {
+		"mocha": "^2.4.5"
+	}
 }
