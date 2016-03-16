@@ -4,6 +4,7 @@
 ![VERSION](https://img.shields.io/npm/v/server-root.svg)
 ![DOWNLOADS](https://img.shields.io/npm/dt/server-root.svg)
 [![ISSUES](https://img.shields.io/github/issues-raw/akonoupakis/server-root.svg)](https://github.com/akonoupakis/server-root/issues)
+[![Build Status](https://api.travis-ci.org/akonoupakis/server-root.svg?branch=master)](http://travis-ci.org/akonoupakis/server-root)
 ![LICENCE](https://img.shields.io/npm/l/server-root.svg)
 
 [![NPM](https://nodei.co/npm/server-root.png?downloads=true)](https://nodei.co/npm/server-root/)
@@ -17,7 +18,7 @@ A module that maps a relative path to its server full path location.
 ```js
 var server = require('server-root');
 
-var path = server.mapPath('folder/file.txt');
+var path = server.mapPath('./folder/file.txt');
 ```
 
 ## license
