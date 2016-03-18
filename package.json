@@ -1,6 +1,6 @@
 {
 	"name": "server-root",
-	"version": "1.0.10",
+	"version": "1.0.11",
 	"description": "maps a relative path to its server full path location",
 	"keywords": [
 		"map path",
@@ -18,9 +18,10 @@
 	"license": "MIT",
 	"main": "index",
 	"scripts": {
-		"test": "mocha"
+		"test": "standard ./index.js & mocha"
 	},
 	"devDependencies": {
-		"mocha": "^2.4.5"
+		"mocha": "^2.4.5",
+		"standard": "^6.0.8"
 	}
 }
