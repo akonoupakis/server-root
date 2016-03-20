@@ -160,3 +160,4 @@ $RECYCLE.BIN/
 .DS_Store
 publish.js
 publish.targets.json
+*.cmd
