@@ -1,10 +1,10 @@
 var path = require('path');
 
 module.exports = {
-    root: null,
+    root: undefined,
         
     mapPath: function (paths) {
-        if(this.root !== null)
+        if(this.root)
             return path.join(this.root, paths);
 
         var dir = __dirname;
